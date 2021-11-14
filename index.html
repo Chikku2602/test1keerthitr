@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+        <style>
+            .na{margin: 1px 1px; }
+            .pass{margin: 1px 1px;}
+            .mail{margin: 1px 1px;}
+            .ge{margin: 1px 1px;}
+            .ph{margin: 1px 1px;}
+            .en{ color: blue; background-color: aliceblue;    margin: 1px 1px;}
+            .em{margin: 1px 1px; margin-right: 200px; color: red;}
+            .sp { font-size: x-small;   margin: 1px 1px;}
+            body{ background: rgb(241, 218, 218);}
+            
+       
+       </style>
+    </head>
+    <body>
+        <form>
+            <div class="na">
+        <h4> Name</h4>
+        <input type="text" placeholder="First Name" maxlength="15">
+        <input type="text" placeholder="Last Name" maxlength="15">
+
+    </div>
+        
+        
+        <div class="mail">
+        <h4> Mail Id</h4>
+        
+        <input type="email" placeholder="Enter Your Mail Id" required>
+        <span class="em">*</span>
+    </div>
+     
+        <div class="pass">
+        <h4>Password</h4>
+        <input type="password" placeholder="Password" minlength="8">
+    </div>
+        
+        <br>
+        <div class="ge">
+        <h4>Gender</h4>
+        <input type="checkbox">
+        <span>Male</span>
+      
+        <input type="checkbox">
+        <span>Female</span>
+    
+    </div>
+       
+        
+        <div class="ph">
+        <h4>Enter Mobile No.</h4>
+        <input type="number" maxlength="10" checked>
+        
+    </div>
+   
+    <br>
+    <span class="sp">* is mandatory</span>
+        <button class="en" type="submit">submit</button>
+    </form>
+    </body>
+</html>
